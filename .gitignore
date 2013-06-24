@@ -4,3 +4,9 @@
 *.jar
 *.war
 *.ear
+*~
+grocket.iml
+grocket/build
+grocket/.idea
+grocket/out
+grocket/.gradle
