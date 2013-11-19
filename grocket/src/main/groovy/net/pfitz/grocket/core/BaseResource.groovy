@@ -1,8 +1,5 @@
 package net.pfitz.grocket.core
 
-import groovy.transform.CompileStatic
-import org.codehaus.groovy.reflection.ReflectionUtils
-
 import java.lang.annotation.Annotation
 import java.lang.reflect.InvocationTargetException
 import java.lang.reflect.Method
@@ -21,7 +18,7 @@ class BaseResource<T> {
     Class model;
     HashMap<String, List<RegisteredEventHandler>> eventHandlers;
 
-    void init() {
+    public void init() {
         eventHandlers = new HashMap<String, List<RegisteredEventHandler>>();
         // Find and attach all mixins
         println("Finding meta property values -------------------")

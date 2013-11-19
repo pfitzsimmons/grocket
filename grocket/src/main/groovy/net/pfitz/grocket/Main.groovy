@@ -1,6 +1,5 @@
-package net.pfitz.grocket;
+package net.pfitz.grocket
 
-import java.io.File;
 import org.ho.yaml.Yaml;
 
 public class Main

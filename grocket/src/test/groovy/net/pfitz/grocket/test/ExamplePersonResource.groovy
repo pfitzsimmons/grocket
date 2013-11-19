@@ -1,7 +1,6 @@
 package net.pfitz.grocket.test
 
 import groovy.transform.CompileStatic
-import net.pfitz.grocket.core.BaseResource
 
 /**
  * Created with IntelliJ IDEA.

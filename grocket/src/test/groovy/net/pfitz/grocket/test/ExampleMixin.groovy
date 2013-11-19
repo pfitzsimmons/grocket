@@ -1,7 +1,6 @@
 package net.pfitz.grocket.test
 
 import groovy.transform.CompileStatic
-import net.pfitz.grocket.core.BaseEvents
 import net.pfitz.grocket.core.BaseMixin
 import net.pfitz.grocket.core.GrocketEventHandler
 import net.pfitz.grocket.core.UserError
